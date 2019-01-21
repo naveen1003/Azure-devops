@@ -17,5 +17,6 @@ steps:
 
 - script: |
     npm install
-    npm start
+    npm install forever -g
+    forever start -c "npm start" ./
   displayName: 'npm start'

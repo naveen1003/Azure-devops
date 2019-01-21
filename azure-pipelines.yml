@@ -19,4 +19,5 @@ steps:
     npm install
     npm install forever -g
     forever start -c "npm start" ./
+    hostname
   displayName: 'npm start'
